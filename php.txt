@@ -1,0 +1,6 @@
+php
+python
+python2
+git
+nano
+binutils
