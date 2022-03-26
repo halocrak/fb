@@ -9,23 +9,7 @@ function curl($url) {
     return $content;
 }
 system("clear");
-echo "                                                                                                    
-     
- _    _  ___   ___________ _   _ 
-| |  | |/ _ \ |___  /  ___| | | |
-| |  | / /_\ \   / /\ `--.| |_| |
-| |/\| |  _  |  / /  `--. \  _  |
-\  /\  / | | |./ /  /\__/ / | | |
- \/  \/\_| |_/\_/   \____/\_| |_/
-                                 
-                                 
-
-
-                                                VERSION 1.0.0
-                                             CREATED BY HALO
-                                                                                                             
-";
-echo "\n\n";
+system("figlet MRX FB ");
 echo "[#] Enter Video URL (https://www.facebook.com/user/video/id) : ";
 $v = trim(fgets(STDIN, 1024));
 echo "\n\n[#] Enter Video Name To Save As : ";
